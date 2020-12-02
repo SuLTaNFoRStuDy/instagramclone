@@ -1,0 +1,32 @@
+.like{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    justify-content: space-between;
+    margin: 15px;
+    border: 1px solid lightgray;
+    padding-left:10px ;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+.like >h3{
+    
+    font-size: medium;
+    padding: 15px;
+    
+    margin: 10px;
+    margin-right: auto;
+}
+
+.like>small{
+    color: gray;
+    position: absolute;
+    font-size: 8px;
+    top: 5px;
+    right: 0;
+}
+.like:hover{
+    background-color: lightgray;
+    color: white;
+}
